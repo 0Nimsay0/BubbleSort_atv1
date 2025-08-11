@@ -1,18 +1,11 @@
-## Getting Started
+# Bubble Sort em Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este é um projeto simples em **Java** que lê números de um arquivo `.txt`, ordena-os usando o algoritmo **Bubble Sort** e exibe estatísticas da execução.
 
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Como funciona
+1. O programa lê todos os números do arquivo.
+2. Aplica **Bubble Sort** usando um `Comparator` para comparar elementos.
+3. Mostra:
+   - Números antes de ordenar
+   - Números ordenados
+   - Fases, trocas e comparações
